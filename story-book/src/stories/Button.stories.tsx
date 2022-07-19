@@ -46,3 +46,10 @@ New.args = {
   size: 'small',
   label: 'Confirm',
 };
+
+export const inshaf = Template.bind({});
+inshaf.args ={
+  primary: false,
+  size: 'medium',
+  label: 'hello'
+}
