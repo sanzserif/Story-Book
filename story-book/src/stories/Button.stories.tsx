@@ -53,3 +53,18 @@ inshaf.args ={
   size: 'medium',
   label: 'hello'
 }
+
+export const poornima = Template.bind({});
+poornima.args = {
+  primary: false,
+  size: "medium",
+  label: "hello",
+};
+
+export const bt01 = Template.bind({});
+bt01.args = {
+  primary: false,
+  size: "medium",
+  label: "Log In",
+  backgroundColor: "pink",
+};

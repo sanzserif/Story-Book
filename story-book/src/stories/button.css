@@ -1,3 +1,4 @@
+
 @import 'antd/dist/antd.css';
 .storybook-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -28,4 +29,8 @@
 .storybook-button--large {
   font-size: 16px;
   padding: 12px 24px;
+}
+
+.storybook-button--bt01{
+  background-color:green;
 }

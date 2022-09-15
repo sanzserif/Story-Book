@@ -35,7 +35,9 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary
+    ? "storybook-button--primary"
+    : "storybook-button--secondary";
   return (
     <AntButton
       // className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
