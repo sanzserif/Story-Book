@@ -1,5 +1,5 @@
-import "antd/dist/antd.css";
-import "./stories/Button";
+import "antd/dist/antd.less";
+import "./Button.less";
 import { Form, Input, Button } from "antd";
 
 function App() {
